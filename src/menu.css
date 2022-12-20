@@ -1,0 +1,120 @@
+﻿* {
+    font-family: 'Almarai', sans-serif;
+}
+
+.nav--title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.content--container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.inquiry--container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.balance--container {
+    display: grid;
+    place-items: center;
+    padding-bottom: 40px;
+}
+
+.card--actual {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #2ecc71;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.card--sim {
+    background-color: rgb(255, 255, 29);
+    width: 40px;
+    height: 30px;
+    border-radius: 0 5px 0 0;
+}
+
+.action--container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.action--title {
+    display: grid;
+    place-items: center;
+
+}
+
+.action--button--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.deposit--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.deposit--container:hover {
+    color: rgb(176, 166, 153);
+}
+
+.withdraw--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.withdraw--container:hover {
+    color: rgb(176, 166, 153);
+}
+
+.confirm--cancel--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.confirm--cancel {
+    background-color: antiquewhite;
+    width: 120px;
+    height: 60px;
+}
+
+.logout--button--container {
+    padding-right: 50px;
+    float: right;
+}

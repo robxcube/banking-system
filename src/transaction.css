@@ -1,0 +1,24 @@
+﻿*{
+    font-family: 'Almarai', sans-serif;
+}
+
+.transaction--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.table--container {
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.logout--button--container {
+    float: right;
+    padding-right: 50px;
+}

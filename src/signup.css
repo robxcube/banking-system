@@ -1,0 +1,22 @@
+﻿* {
+
+    font-family: 'Almarai', sans-serif;
+}
+
+.header--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6780FF;
+    height: 200px;
+}
+
+.signup--tittle {
+    padding: 20px;
+}
+
+form {
+    margin-left: auto;
+    margin-right:auto;
+    width: 60%;
+}

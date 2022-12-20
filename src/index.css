@@ -1,0 +1,44 @@
+﻿* {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.header--container {
+    display: grid;
+    place-items: center;
+    background-color: #6780FF;
+    color: white;
+    height: 200px;
+}
+
+.input--style {
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 1px #a2a2a2;
+}
+
+.header--container--title {
+    padding: 50px;
+    max-height:max-content;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.submit--btn{
+    border-radius: 5px;
+    --bs-btn-color: var(--bs-white);
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #6780FF;
+}
+
+.error {
+    color: #6780FF;
+}
